@@ -1,0 +1,33 @@
+body  {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    background-image: url("images/650300.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Martel', serif;
+    font-size: 4em;
+    margin-top: 1em;
+}
+div.watch{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+div.timer{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    background: #000000a3;
+    border: 1px solid;
+    padding: 0px 1em;
+    display: flex;
+    align-self: center;
+}
+
+.fa-stopwatch{
+    font-size: 2em;
+}
